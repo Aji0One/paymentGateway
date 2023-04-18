@@ -6,7 +6,7 @@ const cors = require("cors");
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://inspiring-elf-e11d98.netlify.app",
   })
 );
 
